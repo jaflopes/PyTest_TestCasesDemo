@@ -33,7 +33,7 @@ if __name__ == '__main__':
     print("I'm a car!")
     while True:
         try:
-            action = input("What should I do? [A]ccelerate, [B]rake, "
+            action = input("What should I do? [A]ccelerate, [B]rake, " 
                            "show [O]dometer, or show average [S]peed?").upper()
         except EOFError as e:
             continue
