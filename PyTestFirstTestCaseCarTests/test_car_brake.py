@@ -1,6 +1,6 @@
 import pytest
 
-from TestCasesDemo.PyTestFirstTestCaseCar.car import Car
+from PyTestFirstTestCaseCar.car import Car
 
 
 @pytest.fixture

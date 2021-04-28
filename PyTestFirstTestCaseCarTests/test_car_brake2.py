@@ -1,6 +1,6 @@
 import pytest
 
-from TestCasesDemo.PyTestFirstTestCaseCar.car import Car
+from PyTestFirstTestCaseCar.car import Car
 
 # speed_data = {45}
 speed_data = {45, 50, 55, 100}
