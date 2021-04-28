@@ -36,7 +36,7 @@ if __name__ == '__main__':
             action = input("What should I do? [A]ccelerate, [B]rake, " 
                            "show [O]dometer, or show average [S]peed?").upper()
         except EOFError as e:
-            print (e)
+            print(e)
 
         if action not in "ABOS" or len(action) != 1:
             print("I don't know how to do that")
